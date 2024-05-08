@@ -1,0 +1,1506 @@
+// ====================================
+// Start search suggestion styling
+// ====================================
+
+.tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+       -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+    color: #999
+}
+
+.tt-menu {    /* used to be tt-dropdown-menu in older versions */
+    width: 100%;
+    margin-top: 4px;
+    padding: 4px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+            box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+    line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor,.tt-suggestion:hover {
+    color: #fff;
+    background-color: $mainColor;
+  
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+// ====================================
+// End search suggestion styling
+// ====================================
+// ====================================
+// Start Header – Nav module
+// ====================================
+
+.albia-header-top {
+    margin-top: 37px;
+}
+
+.albia-header-top a {
+    color: $thirdColor;
+    text-decoration: none !important;
+}
+
+.albia-header-top i {
+    margin-right: 8px;
+}
+
+.albia-header-top .header-contact-info {
+    background-color: $mainColor;
+    padding: 10px 20px;
+    border-radius: .5em;
+}
+
+.albia-header-top .header-contact-info div:first-child,
+.albia-header-top .header-contact-info div:last-child, {
+    color: $thirdColor;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.albia-header-top .header-contact-info div:nth-child(2n) {
+    font-size: .7em;
+    font-weight: 600;
+}
+
+.errorBox {
+    padding: 10px 0px;
+    background-color: rgba(190,9,20,0.25);
+    border: 1px solid #BE0914;
+    color: #BE0914;
+}
+
+.internNavImg {
+    width: 15px;
+}
+
+#primary_nav_wrap {
+    margin-top: 16px;
+    z-index: 20;
+    background-color: $mainColor;
+}
+
+#primary_nav_wrap ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#primary_nav_wrap ul a {
+    display: block;
+    color: $thirdColor;
+    text-decoration: none;
+    font-family: $bodyFont;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    padding: 10px;
+}
+
+#primary_nav_wrap ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#primary_nav_wrap ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+
+#primary_nav_wrap ul ul li {
+    float: none;
+    width: 200px;
+    background: $mainColor;
+}
+
+#primary_nav_wrap ul ul li:hover {
+    background: $hoverColor;
+}
+
+#primary_nav_wrap ul ul a {
+    line-height: 120%;
+    padding: 10px 20px;
+}
+
+#primary_nav_wrap ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+#primary_nav_wrap ul li:hover>ul {
+    display: block;
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.75);
+    z-index: 1;
+}
+
+// ====================================
+// End Header
+// ====================================
+// ====================================
+// Start page Home01
+// ====================================
+
+.searchBoxContainer {
+    height: 450px;
+    background-position: center;
+}
+
+.searchToolContainer {
+    margin-top: 100px;
+    padding: 15px 0px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.searchToolHome {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.searchToolHome .localisationButton,
+.searchToolHome .searchButton {
+    width: 100px;
+}
+
+.searchBoxHome {
+    height: 100%;
+    width: 100%;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nearStores p {
+    font-family: $titlesFont;
+    font-size: 1rem;
+}
+
+.nearStores {
+    display: flex;
+    flex-direction: row;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+    width: calc((100%/3) - 15px);
+    min-height: 355px;
+    padding: 0px;
+    margin: 0px 15px 50px 0px;
+    -webkit-box-shadow: 0px 0.5px 5px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0.5px 5px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0.5px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+.store a {
+    text-decoration: none !important;
+}
+
+.store a:hover {
+    text-decoration: none !important;
+}
+
+.store address {
+    color: #212529;
+    text-decoration: none;
+}
+
+.storeImgContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease-in-out all;
+}
+
+.overlay:hover {
+    background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition: 0.25s ease-in-out all;
+}
+
+.storeImgContainer p {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 90%;
+    font-weight: 700;
+    color: #fff;
+}
+
+.storeInfosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.storeAddress {
+    max-width: 80%;
+    text-align: center;
+}
+
+.storeInfosContainer .callButton {
+    min-height: 40px;
+}
+
+
+.callButton::after {
+    content: "Llamar";
+    font-size: 1.1rem;
+}
+
+.callButton:hover::after {
+    content: attr(data-phone);
+}
+
+.callButton:hover span {
+    display: none;
+}
+
+.callButton::before {
+    content: url(../img/icons/phone-call.svg);
+    width: 17px;
+    margin: 0px 10px -6px 0px;
+}
+
+.callButton:hover,
+.moreInfosButton:hover,
+.howGoButton:hover,
+.contactButton:hover,
+.virtualTourButton:hover
+{
+    color: $thirdColor;
+    border: 1.5px solid $hoverColor;
+    background-color: $hoverColor;
+    text-decoration: none;
+}
+
+.callButton:hover span {
+    display: none;
+}
+
+.callButton::after {
+    content: "Llamar";
+}
+
+.callButton:hover::after {
+    content: attr(data-phone);
+}
+
+.callButton svg {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    max-height: 163px !important;
+}
+
+.dropdown-toggle {
+    background-color: $thirdColor;
+    border-radius: 0px;
+    height: 100%;
+    border-color: $mainColor;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:active {
+    border: 1px solid $mainColor;
+}
+
+// ====================================
+// End page Home01
+// ====================================
+
+// ====================================
+// Start opening/closing warning
+// ====================================
+
+.active-warning {
+  display: block;
+}
+
+.inactive-warning {
+  display: none;
+}
+
+.schedule-warning-home-page {
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.schedule-warning div {
+    color: #212529;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+// ====================================
+// End opening/closing warning
+// ====================================
+
+// ====================================
+// Start page HUB
+// ====================================
+
+.internNav {
+    padding-top: 20px;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.internNav ul li {
+    display: inline-block;
+    font-size: 15px;
+    transition: 0.5s ease-in-out all;
+}
+
+#homeInternNav ul li {
+    margin: 0px !important;
+}
+
+.internNav ul li a {
+    color: $secondColor;
+    text-decoration: none;
+    transition: .5s ease-in-out all;
+}
+
+.internNav ul li a:hover {
+    color: $mainColor;
+}
+
+.internNav ul li::after {
+    content: "⟩";
+    margin: 0px 5px 0px 8px;
+}
+.internNav ul li:last-child::after {
+    display: none;
+}
+
+.breadcrumbsIMG {
+    width: 20px;
+}
+
+.resultSearch{
+    font-size: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+    color: #949494;
+} 
+
+.mapBox {
+    margin-top: 10px;
+}
+
+.localisationBigBox {
+    width: 100%;
+    height: 100% !important;
+    margin: 0px !important;
+}
+
+.storesBox {
+    position: relative;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.hiddenMapTool {
+    margin-top: 10px;
+}
+
+.storeBoxContact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.storeBoxContact .row {
+    margin: 0px;
+}
+
+.searchToolExtra {
+    margin-bottom: 15px;
+}
+
+.toolExtraNb1 {
+    padding-left: 0 !important;
+    padding-right: 7.5px !important;
+}
+
+.toolExtraNb2 {
+    padding-right: 0 !important;
+    padding-left: 7.5px !important;
+}
+
+.localisationBox {
+    border-top: 1px solid #e1e1e1;
+}
+
+.storesInfos {
+    text-decoration: none;
+    color: $secondColor;
+}
+
+.storesInfos:hover {
+    text-decoration: none !important;
+    color: $secondColor !important;
+}
+
+.localisationBox:hover {
+    background-color: #f0f0f0;
+    border-top: 1px solid #e1e1e1;
+    transition: 0.5s ease-in-out all;
+}
+
+.localisationBox:hover {
+    background-color: #e6e6e6;
+    .compomentItemSearch-show::before {
+        display: block;
+        content: "Mostrar en mapa";
+        font-size: 0.6rem;
+        margin-top: 10px;
+    }
+}
+
+.localisationBox .callButton::before {
+    width: 25px;
+}
+
+.localisationBox h2 {
+    font-size: 1.1rem;
+}
+
+.localisationBox address {
+    font-size: 0.8rem;
+}
+
+.compomentItemSearch {
+    min-height: 210px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.compomentItemSearch-number {
+    padding-top: 12.5px;
+    height: 60px;
+    font-size: 0.9rem;
+    background-image: url(../img/icons/placeholder-2.svg);
+    background-position: center;
+    background-size: 60px;
+}
+
+.compomentItemSearch-show {
+    max-height: 22px;
+}
+
+.compomentItemSearch-show::before {
+    content: "";
+}
+
+.storesInfos {
+    padding-top: 20px;
+    padding-bottom: 11px;
+}
+
+.searchToolHub .searchBox {
+    display: flex;
+    height: 40px;
+    width: 100%;
+}
+
+.twitter-typeahead {
+    width: 100%;
+}
+
+.gmaps-labels {
+    color: $mainColor;
+    font-family: $bodyFont;
+}
+
+// ====================================
+// End page HUB
+// ====================================
+// ====================================
+// Start infobox modular HUB
+// ====================================
+
+.infoboxModularContainer {
+    display: flex;
+    padding: 5px;
+}
+
+.infoboxModularContainer h3 {
+    margin-bottom: 5px !important;
+    font-size: 1rem;
+    color: $mainColor;
+}
+
+.infoboxModularContainer address {
+    padding: 10px 0px 20px 0px;
+    margin: 0px !important;
+    font-size: 0.8rem;
+}
+
+.infoboxModularContainer a {
+    padding: 5px 10px;
+    color: $thirdColor;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: $mainColor;
+    transition: .75s ease all;
+}
+
+.infoboxModularContainer a:hover {
+    color: $thirdColor;
+    background-color: $hoverColor;
+}
+
+.infoboxTxt {
+    max-width: 200px;
+    min-height: 130px;
+}
+
+.infoboxImg {
+    max-width: 200px;
+    margin-left: 25px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.infoboxImg img {
+    height: 105px;
+}
+
+.gm-ui-hover-effect {
+    opacity: 1 !important;
+}
+
+.mapButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #909298;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/icons/map-icon.svg);
+    background-position: center;
+    background-size: 30px;
+    background-color: $mainColor;
+    overflow: hidden;
+    text-align: center;
+    z-index: 150;
+    transition: 0.5s ease-in-out all;
+}
+
+.mapButtonActive {
+    background-image: url(../img/icons/dir-arrow.svg);
+    right: calc( 100% - 65px );
+}
+
+.toggleMap {
+    left: 0 !important;
+}
+
+// ====================================
+// End infobox modular HUB
+// ====================================
+// ====================================
+// Start page Specific Page
+// ====================================
+
+#virtualTourPopUp iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+.virtualTourButton {
+    margin: 24px 0;
+}
+
+.services-module {
+    margin-bottom: 24px;
+}
+
+.services-module p {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.services-module a {
+    color: $secondColor;
+}
+
+.services-module a:hover {
+    text-decoration: none;
+    color: $hoverColor;
+    cursor: pointer;
+}
+
+.services-module .services-icon {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 5%;
+}
+
+.services-module figure {
+    margin: 0;
+    overflow: hidden;
+}
+
+.services-module figure img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.1s ease-in-out;
+}
+
+.services-module .icon_overlay {
+    background-color: $mainColor;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 49;
+    transition: all 0.2s ease-in-out;
+}
+
+.services-module figcaption {
+    color: $thirdColor;
+    opacity: 0;
+    z-index: 50;
+    transition: all 0.2s ease-in-out;
+    font-size: 1rem;
+    line-height: 1.3;
+    width: 100%;
+}
+
+.services-icon:hover figcaption,
+.services-icon:hover .icon_overlay {
+    opacity: 1;
+}
+
+.contactBox h1 {
+    font-size: 1.875rem;
+}
+
+.contactBox address {
+    font-size: 1rem;
+}
+
+.contactBox .callButton,
+.howGoButton {
+    margin-top: 10px;
+}
+
+.phoneAvailability {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px !important;
+    color: #949494;
+}
+
+.commentFormPageContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all ease 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+    padding: 50px 0;
+}
+
+.target {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.commentFormScrollContainer {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.commentFormContainer {
+    width: 40%;
+    margin: 0 auto;
+    padding: 25px 50px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.closePopUp {
+    content: url(../img/icons/closePopUp.svg);
+    width: 20px;
+    float: right;
+}
+
+input#author,
+input#email {
+    width: 100%;
+}
+
+.form-submit .submit {
+    padding: 2.5px 10px;
+    font-size: 1.25rem;
+    color: $thirdColor;
+    text-align: center;
+    text-decoration: none;
+    background-color: $mainColor;
+    border-radius: 5px;
+    border: 1px solid $mainColor !important;
+    transition: 0.5s ease all;
+}
+
+.form-submit .submit:hover {
+    color: $mainColor;
+    background-color: $thirdColor;
+}
+
+.form-submit .submit.btnDisabled,
+.form-submit .submit.btnDisabled:hover {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    color: gray;
+}
+
+input#terms {
+    margin-right: 5px;
+}
+
+.comment-form-terms > label {
+    display: inline;
+}
+
+.contactRes {
+    color: red;
+}
+
+.contactRes.commentSent {
+    color: $mainColor;
+}
+
+.pageMarginTop {
+    margin-top: 20px;
+}
+
+.searchToolParent {
+    padding: 0px 15px;
+}
+
+.searchToolHub,
+.searchToolCenter {
+    display: flex;
+    width: 100%;
+    margin: 0px 15px;
+    margin-bottom: 30px;
+}
+
+.localisationButton,
+.searchButton {
+    display: flex;
+    position: relative;
+    width: 50px;
+    border: none !important;
+}
+
+.localisationButton img,
+.searchButton img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 40%;
+}
+
+.searchToolCenter .searchBox {
+    height: 40px;
+    width: 100%;
+}
+
+.localisationTxt::before {
+    content: url(../img/icons/gps-location.svg);
+    width: 15px;
+    margin-top: 1px;
+    margin-right: 5px;
+}
+
+.searchTxt::before {
+    content: url(../img/icons/magnifying-glass.svg);
+    width: 15px;
+    margin-top: 1px;
+    margin-right: 5px;
+}
+
+.localisationTxt,
+.searchTxt {
+    position: absolute;
+    display: flex;
+}
+
+.infosBar {
+    background-color: pink;
+    margin: 0px 0px;
+    padding: 35px 0px;
+    background-color: $fourthColor;
+}
+
+.callButton,
+.contactButton,
+.moreInfosButton,
+.localisationButton,
+.searchButton,
+.howGoButton,
+.virtualTourButton
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: $mainColor;
+}
+
+.contactButton {
+    margin-top: 10px;
+}
+
+.timeInfosBlock h4 {
+    color: $mainColor;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.timeInfosBlock {
+    margin-top: 25px;
+}
+
+.timeInfosBlock ul li{
+    list-style: none;
+}
+
+.timeInfos h4,
+.timeInfosEl{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.timeInfosElTitle {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.callButton,
+.moreInfosButton,
+.contactButton,
+.localisationButton,
+.searchButton,
+.howGoButton,
+.virtualTourButton,
+{
+    font-family: $bodyFont;
+    font-size: 1.1rem;
+    color: $thirdColor;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s ease all;
+}
+
+.contactButton,
+.moreInfosButton {
+    line-height: 17px;
+}
+
+.localisationButton:hover,
+.searchButton:hover {
+    background-color: $hoverColor;
+    text-decoration: none;
+}
+
+.carousel {
+    margin-bottom: 40px;
+}
+
+.box {
+    margin: 15px 0px 5px 0px;
+}
+
+.moreInfosButton {
+    margin-top: 10px;
+}
+
+.extraInfos {
+    margin-top: 20px;
+}
+
+.extraInfos ul {
+    list-style-type: none;
+}
+
+.extraInfos li::before {
+    content: '- ';
+    color: $mainColor;
+}
+
+#map>div {
+    margin: 0px 15px !important;
+    width: calc(100% - 30px) !important;
+    overflow: hidden !important;
+}
+
+#map {
+    height: 400px;
+    margin: 40px 0px;
+}
+
+.iconsBox {
+    text-align: left;
+}
+
+.facilities-module img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.services-module img {
+    padding: 30%;
+    margin-bottom: 10px;
+}
+
+.showDays {
+    display: flex;
+    padding: 20px 0px 5px 0px;
+    color: #212529;
+    transition: 0.5s ease-in-out all;
+}
+
+.showDays:hover {
+    text-decoration: none;
+    color: #636669;
+}
+
+.buttonString {
+    margin: 0 auto;
+}
+
+.showDays::before {
+    content: 'Ver todos';
+    margin: 0 auto;
+}
+
+.activeShowDays::before {
+    content: 'Ocultar';
+}
+
+.notActualDayHidden {
+    display: none;
+}
+
+.notActualDay {
+    color: #909298;
+}
+
+// ====================================
+// End page Specific Page
+// ====================================
+// ====================================
+// Start footer
+// ====================================
+
+footer .paddingTop {
+    padding-bottom: 30px;
+}
+
+footer ul.menu li a {
+    font-weight: 300;
+}
+
+.footer-menu-title {
+    font-size: 18px;
+    padding-bottom: 8px;
+    color: #fff;
+}
+
+footer i {
+    padding-right: 8px;
+}
+
+#cookie-law-info-bar {
+    padding: 5px 10px !important;
+    font-size: 13px !important;
+}
+
+.provinceNavContainer {
+    margin-top: 50px;
+    -webkit-box-shadow: 0px -2px 20px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 20px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px -2px 20px -9px rgba(0,0,0,0.75);
+}
+
+.provinceNav {
+    padding-top: 20px;
+}
+
+.provinceNav ul li {
+    display: inline-block;
+}
+
+.provinceNav ul li a {
+    color: #939393;
+    text-decoration: none;
+}
+
+.provinceNav ul li::after {
+    content: " –";
+    color: #D3D3D3;
+}
+
+.provinceNav ul li:last-child::after {
+    display: none;
+}
+
+.bgcFooter {
+    background-color: $mainColor;
+}
+
+.numberBox {
+    font-size: 1.4em;
+    font-weight: 600;
+    text-align: right;
+}
+
+.numberBox a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+article.footer-bottom {
+    padding: 8px 0;
+    background: #d3e3f2;
+}
+
+article.footer-bottom ul {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+article.footer-bottom ul li {
+    padding: 0 16px;
+}
+
+article.footer-bottom ul li a {
+    color: $secondColor;
+}
+
+// ====================================
+// End footer
+// ====================================
+// ====================================
+// Start banner
+// ====================================
+
+.singleBanner {
+    height: auto;
+    padding-top: 32px;
+}
+
+.singleBanner img {
+    width: 100%;
+}
+
+.flexBox {
+    display: flex;
+}
+
+.doubleBanner {
+    width: calc(50% - 20px);
+    height: auto;
+    padding-top: 32px;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.doubleBanner img {
+    width: 100%;
+}
+
+// ====================================
+// End banner
+// ====================================
+
+// ====================================
+// Media queries
+// ====================================
+
+@media only screen and (max-width: 1024px) {
+    .services-module .services-icon {
+        height: 165px;
+    }
+
+    .commentFormContainer {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container-fluid {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .hiddenBoxMoreMd {
+        display: none !important;
+    }
+
+    .searchToolHome .dropdown-toggle,
+    .searchToolHome .dropdown-toggle:hover,
+    .searchToolHome .dropdown-toggle:active {
+        border-left: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .commentFormPageContainer {
+        padding: 88px 0 30px;
+    }
+
+    .footer-bottom {
+        font-size: 0.925rem;
+    }
+
+    #virtualTourPopUp iframe {
+        height: 350px;
+    }
+
+    .commentFormContainer {
+        width: 50%;
+        margin: 15% auto;
+    }
+
+    .services-module figcaption {
+        font-size: 0.9rem;
+    }
+
+    .services-module .services-icon {
+        height: 185px;
+    }
+
+    .internNav ul li {
+        margin: 0;
+    }
+
+    .albia-header-top {
+        margin-top: 0px;
+    }
+
+    .containerNavMobile {
+        width: 100vw;
+    }
+
+    .pageLogo img {
+        margin-top: 0px;
+        padding: 16px 0px;
+    }
+    
+    #primary_nav_wrap {
+        display: none;
+    }
+
+    .searchToolHome .localisationButton,
+    .searchToolHome .searchBoxHome,
+    .searchToolHome .selectBoxHome,
+    .searchToolHome .searchButton {
+        width: 100%;
+        height: 40px;
+    }
+
+    .hiddenBoxMd {
+        display: none !important;
+    }
+
+    .store {
+        width: calc((100%/2) - 15px);
+        margin: 0px 15px 25px 0px;
+    }
+
+    .searchBoxContainer {
+        height: 380px;
+    }
+
+    .searchToolHome {
+        flex-direction: column;
+        width: 92%;
+    }
+
+    .searchToolContainer {
+        margin-top: 0px;
+    }
+
+    #primary_nav_wrap {
+        display: none;
+    }
+
+    .storesInfos {
+        text-align: center!important;
+    }
+
+    .searchToolHome .localisationButton img,
+    .searchToolHome .searchButton img {
+        width: 20px;
+        left: 45%;
+    }
+
+    .searchToolHome .localisationButton,
+    .searchToolHome .searchButton {
+        border-radius: 5px;
+    }
+
+    .localisationButton,
+    .searchBoxHome,
+    .dropdown {
+        margin-bottom: 5px;
+    }
+
+    .flexBox {
+        flex-direction: column;
+    }
+
+    .singleBanner {
+        padding-top: 15px;
+    }
+
+    .doubleBanner {
+        padding-top: 15px;
+        width: 100%;
+    }
+
+    .localisationBox .callButton::before {
+        width: 10%;
+    }
+
+    .storesInfos {
+        padding-top: 5px;
+    }
+
+    .localisationBox .callButton {
+        margin-bottom: 25px;
+    }
+
+    .compomentItemSearch {
+        min-height: 125px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .callButton,
+    .contactButton,
+    .moreInfosButton,
+    .virtualTourButton
+    {
+        font-size: 1rem;
+    }
+
+    .footerLogo {
+        width: 300px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 426px) {
+    .hiddenMoreSm {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .footer-bottom {
+        font-size: 0.825rem;
+    }
+
+    .services-module figcaption {
+        font-size: 0.75rem;
+        line-height: 1.3;
+    }
+
+    .services-module .services-icon {
+        height: 175px;
+    }
+
+    .commentFormContainer {
+        width: 85%;
+        margin: 25% auto;
+        padding: 7%;
+    }
+
+    .internNav ul li {
+        font-size: 14px;
+    }
+
+    .nearStores {
+        flex-direction: column;
+    }
+    
+    .store {
+        width: calc(100% - 15px);
+    }
+
+    .numberBox {
+        text-align: center !important;
+    }
+
+    .searchToolCenter,
+    .contactBox {
+        margin: 0px;
+        padding: 0px 0px 15px 0px;
+    }
+
+    .carousel {
+        margin-top: 20px;
+    }
+
+    .googleMapBox>div {
+        width: 345px !important;
+    }
+
+    .callButton,
+    .contactButton,
+    .moreInfosButton,
+    .howGoButton,
+    .virtualTourButton
+    {
+        font-size: 0.9rem;
+    }
+
+    .searchToolHome .localisationButton img,
+    .searchToolHome .searchButton img {
+        width: 20px;
+    }
+
+    .responsiveTxt {
+        padding-left: 15px;
+    } 
+
+    .searchToolHub .localisationButton img,
+    .searchToolHub .searchButton img {
+        width: 40%;
+    }
+
+    .footerLogo {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .localisationBox .callButton::before {
+        width: 7%;
+    }
+
+    .localisationBigBox {
+        position: fixed !important;
+        top: 8%;
+        left: 100%;
+        z-index: 100;
+        transition: 0.5s ease-in-out all;
+    }
+
+    #map > div {
+        margin: 0px 0px !important;
+        width: 100% !important;
+        height: 92% !important;
+        overflow: hidden !important;
+    }
+
+    footer .paddingTop {
+        padding-top: 30px;
+    }
+
+    footer .numberBox {
+        padding-top: 0;
+    }
+
+    div.container-fluid.provinceNavContainer ul {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .services-module .services-icon {
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .services-module .services-icon {
+        height: 130px;
+    }
+}

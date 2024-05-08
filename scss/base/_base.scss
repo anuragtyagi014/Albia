@@ -1,0 +1,156 @@
+// ==========================================================================
+// _base.scss
+// ==========================================================================
+
+// ====================================
+// elements
+// ====================================
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior:smooth
+}
+
+body {
+    color: $secondColor;
+}
+
+h1 {
+    font-family: $titlesFont;
+    font-size: 2rem;
+    font-weight: $bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: $titlesFont;
+    font-size: 1.875rem;
+    font-weight: $bold;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: $titlesFont;
+    font-size: 1.875rem;
+    font-weight: $bold;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: $bodyFont;
+    font-size: 1.0625rem;
+}
+
+address {
+    margin: auto;
+    padding: 10px 0px;
+    font-family: $bodyFont;
+    font-size: 0.8rem;
+    font-style: normal;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: $bold;
+    color: $fourthColor;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+footer p {
+    font-family: $titlesFont;
+    font-size: 1.4rem;
+}
+
+footer li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+footer a {
+    color: $thirdColor;
+    text-decoration: none;
+    transition: 0.5s ease all;
+}
+
+input {
+    padding: 5px 10px;
+    border: 1px solid $mainColor !important;
+    border-radius: 0px !important;
+    background-color: $thirdColor;
+}
+
+textarea {
+    border: 1px solid $mainColor !important;
+}
+
+// ====================================
+// Media quieries all pages
+// ====================================
+
+@media only screen and (max-width: 768px) {
+    header {
+        position: fixed;
+        z-index: 150;
+        background-color: #fff;
+    }
+
+    h1 {
+    font-size: 1.7rem;;
+    }
+
+    h2 {
+    font-size: 1.575rem;
+    }
+
+    h3 {
+    font-size: 1.575rem;
+    }
+
+    p {
+    font-size: 0.925rem;
+    }
+
+    address {
+        font-size: 0.8rem;
+    }
+
+    .site-content {
+        padding-top: 84px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    h1 {
+    font-size: 1.4rem;;
+    }
+
+    h2 {
+    font-size: 1.275rem;
+    }
+
+    h3 {
+    font-size: 1.275rem;
+    }
+
+    p {
+    font-size: 0.825rem;
+    }
+
+    address {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        height: auto;
+        text-align: center;
+    }
+
+    .site-content {
+        padding-top: 68px;
+    }
+}

@@ -1,0 +1,63 @@
+// ==========================================================================
+// Helper classes
+// ==========================================================================
+
+@media only screen and (max-width: 768px) {
+    .hiddenContent {
+        display: none !important;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hiddenMapTool{
+        display: none !important;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .visibilityHidden {
+        display: none !important;
+        visibility: hidden;
+    }
+}
+
+.inlineEnd{
+    float: right;
+}
+
+.marginTop {
+    margin-top: 50px;
+}
+
+.paddingTop {
+    padding-top: 60px;
+}
+
+.paddingContainer {
+    padding: 0px 30px;
+}
+
+.pageIndex {
+    z-index: 10;
+}
+
+.entry-header {
+    display: none;
+}
+
+.bgcBox {
+    width: 160%;
+    height: 100%;
+    margin-left: -50%;
+    background-color: #f0f4f4;
+}
+
+.fixCase {
+    padding-left: 17px;
+}
+
+#buttonPadding {
+    padding-right: 15px;
+}
