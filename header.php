@@ -184,11 +184,11 @@
             });
         </script>
     <?php endif; ?>
-<style type="text/css">
-    a.blog_desktop {
-    cursor: pointer;
-}
-</style>
+    <style type="text/css">
+        a.blog_desktop {
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body <?php body_class(); ?>>
@@ -223,9 +223,11 @@
                             ?>
                             <ul>
                                 <li>
-                                    <a thref="tel:+34900242420" data-phone="900242420" class="blog_desktop" attr-location="Mobile Menu Phone" attr-title="Albia">900 24 24 20</a></li>
+                                    <a thref="tel:+34900242420" data-phone="900242420" class="blog_desktop" attr-location="Mobile Menu Phone" attr-title="Albia">900 24 24 20</a>
+                                </li>
                                 <li>
-                                    <a thref="mailto:info@albia.es" data-phone="info@albia.es" class="blog_desktop_email" attr-location="Mobile Menu Email" attr-title="<?= get_the_title(); ?>">info@albia.es</a></li>
+                                    <a thref="mailto:info@albia.es" data-phone="info@albia.es" class="blog_desktop_email" attr-location="Mobile Menu Email" attr-title="<?= get_the_title(); ?>">info@albia.es</a>
+                                </li>
                             </ul>
                         </div>
                         <script>
@@ -255,7 +257,8 @@
                             </div>
                             <div>TLF. GRATUITO - 24H</div>
                             <div>
-                        <a thref="mailto:info@albia.es" data-phone="info@albia.es'" class="blog_desktop_email" attr-location="header Email" attr-title="<?php echo get_the_title(); ?>"><i class="far fa-envelope"></i>info@albia.es</a></div>
+                                <a thref="mailto:info@albia.es" data-phone="info@albia.es'" class="blog_desktop_email" attr-location="header Email" attr-title="<?php echo get_the_title(); ?>"><i class="far fa-envelope"></i>info@albia.es</a>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
